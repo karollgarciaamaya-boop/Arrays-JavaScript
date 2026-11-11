@@ -1,0 +1,143 @@
+
+/* ESTILOS GENERALES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5efff;
+    color: #45345c;
+    padding: 30px;
+}
+
+/* TITULOS */
+h1 {
+    text-align: center;
+    color: #8055b8;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #966bc4;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+/* FORMULARIOS */
+form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 14px;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 4px 12px rgba(128, 85, 184, 0.12);
+}
+
+/* CAMPOS */
+input {
+    padding: 11px;
+    border: 1px solid #d5c2ed;
+    border-radius: 8px;
+    margin: 8px 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+input:focus {
+    border-color: #a77bd3;
+    background-color: #fcfaff;
+}
+
+/* BOTONES */
+button {
+    background-color: #a77bd3;
+    color: white;
+    border: none;
+    padding: 11px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 8px 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8055b8;
+}
+
+/* LISTAS */
+ul, ol {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: 15px auto;
+}
+
+li {
+    padding: 8px;
+}
+
+/* ENLACES */
+a {
+    color: #8055b8;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5e378c;
+    text-decoration: underline;
+}
+
+/* TABLAS */
+table {
+    width: 100%;
+    max-width: 850px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #a77bd3;
+    color: white;
+    padding: 13px;
+}
+
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #e5d8f5;
+}
+
+/* RESULTADOS */
+p {
+    text-align: center;
+    margin: 12px;
+    line-height: 1.5;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+    body {
+        padding: 15px;
+    }
+
+    input {
+        width: 100%;
+        margin: 8px 0;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+}
